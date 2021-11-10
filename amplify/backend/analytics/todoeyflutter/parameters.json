@@ -1,0 +1,21 @@
+{
+    "appName": "todoeyflutter",
+    "roleName": "pinpointLambdaRole5d615b37",
+    "cloudformationPolicyName": "cloudformationPolicy5d615b37",
+    "cloudWatchPolicyName": "cloudWatchPolicy5d615b37",
+    "pinpointPolicyName": "pinpointPolicy5d615b37",
+    "authPolicyName": "pinpoint_amplify_5d615b37",
+    "unauthPolicyName": "pinpoint_amplify_5d615b37",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

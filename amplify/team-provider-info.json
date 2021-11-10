@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-todoeyflutter-dev-195622-authRole",
+      "UnauthRoleArn": "arn:aws:iam::813911426518:role/amplify-todoeyflutter-dev-195622-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::813911426518:role/amplify-todoeyflutter-dev-195622-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-todoeyflutter-dev-195622-deployment",
+      "UnauthRoleName": "amplify-todoeyflutter-dev-195622-unauthRole",
+      "StackName": "amplify-todoeyflutter-dev-195622",
+      "StackId": "arn:aws:cloudformation:us-east-1:813911426518:stack/amplify-todoeyflutter-dev-195622/24cb57a0-4247-11ec-8b9b-12e592422393",
+      "AmplifyAppId": "dxtwp9qjc7kuv"
+    },
+    "categories": {
+      "auth": {
+        "todoeyflutterda26d513": {}
+      }
+    }
+  }
+}
